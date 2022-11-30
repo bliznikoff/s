@@ -7,5 +7,7 @@ print('Эта программа принимает  число N создает
 n = int(input('Введите число: '))
 list1 = [i for i in range(-n, n+1)]
 list2 = [3, 0, 5, 4, 7]
-multiplyItem = list1[list2[0]]*list1[list2[1]]*list1[list2[2]]*list1[list2[3]]*list1[list2[4]]
-print(multiplyItem)
+for i in range(1, len(list2)-1):
+    multi = list1[list2[0]] 
+    multi *= list1[list2[i]] 
+print(multi)
