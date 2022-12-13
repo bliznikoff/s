@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "Ivan",
+    "Surname": "Petrov",
+    "Phone number": "345678",
+    "Comment": "test"
+  },
+  {
+    "Name": "Danil",
+    "Surname": "Kozlov",
+    "Phone number": "9875543",
+    "Comment": "ok"
+  },
+  {
+    "Name": "Krac",
+    "Surname": "Popov",
+    "Phone number": "567890",
+    "Comment": "macho"
+  }
+]
