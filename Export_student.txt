@@ -1,16 +1,4 @@
 
-Ivan
- Petrov
- 345678
- test
-Danil
- Kozlov
- 9875543
- ok
-Krac
- Popov
- 567890
- macho
 Q
  W
  9a
