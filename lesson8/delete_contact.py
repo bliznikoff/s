@@ -3,7 +3,7 @@ import controlled
 
 path_to_db = 'db.json'
 def delete_contact():
-    name = input('Введите имя или фамилию контакта, которого надо удалить:  ')
+    name = input('Введите имя или фамилию ученика, которого надо удалить:  ')
 
     with open(path_to_db, 'r', encoding='UTF-8') as file:
         data = json.load(file)
@@ -11,6 +11,6 @@ def delete_contact():
             if name == data[i]['Name'] or name == data[i]['Surname']:
                 del data[i]
     with open(path_to_db, 'w', encoding='UTF-8') as file:
-        json.dump(data, file, indent=4)
+        json.dump(data, file, indent=6)
     print('\nКонтакт успешно изменена удалён!\n')
     controlled.user_choice()

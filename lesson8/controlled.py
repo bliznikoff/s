@@ -18,7 +18,7 @@ def user_choice():
     elif choice_num == 1:
         ac.add_to_json()
     elif choice_num == 2:
-        dc.delete_contact
+        dc.delete_contact()
     elif choice_num == 3:
         cs.change_surname()
     elif choice_num == 4:

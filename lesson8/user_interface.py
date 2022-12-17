@@ -1,12 +1,22 @@
 import chek
+import controlled
+import search_data as sd
 from export_in_file import export_txt
+
 import os
 os.system('cls')
 
 def start():
     greetings = 'Привет! Это информационная система позволяющую работать с учениками школы.'
-
+    hi_teacher = 'Eсли Вы учитель, введите пин код доступа, если ученик любую цифру'    
     print(f'{greetings}\n')
+    print(hi_teacher)
+    pin = 0000
+    input_pin = int(input('Введите пункт меню: \n'))
+    if input_pin == pin:
+        controlled.user_choice()
+    else:   
+         sd.search_data()
 
 
 def menu():

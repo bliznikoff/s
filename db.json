@@ -13,14 +13,6 @@
             "Class": "9b",
             "Physics": "Physics,5,5",
             "Russian": "Russian",
-            "Mathematics": "Mathematics"
-      },
-      {
-            "Name": "Z",
-            "Surname": "X",
-            "Class": "8a",
-            "Physics": "Physics,4,5,4",
-            "Russian": "Russian",
-            "Mathematics": "Mathematics"
+            "Mathematics": "Mathematics,5"
       }
 ]
