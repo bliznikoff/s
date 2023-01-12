@@ -1,4 +1,4 @@
-# https://github.com/master71512/fruit_bot.git
+
 
 # @bot.message_handler(content_types=["text"])
 # def repeat_all_messages(message): # Название функции не играет никакой роли
