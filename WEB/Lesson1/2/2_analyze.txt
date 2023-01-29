@@ -1,0 +1,6 @@
+Header:
+    название сайта ВикипедиЯ
+    Логотип
+    left sidebar
+Content
+Footer    
